@@ -6,7 +6,7 @@ const login = props => (
   <AuthContext.Consumer>
     {authContext => {
       return (
-        <button onClick={authContext.toggleAuth}>
+        <button className="Login-btn" onClick={authContext.toggleAuth}>
           {authContext.isAuth ? 'Logout' : 'Login'}
         </button>
       );

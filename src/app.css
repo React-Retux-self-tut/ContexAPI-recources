@@ -1,0 +1,14 @@
+body {
+    background-color: purple;
+    color: white;
+    font-size: 0.7rem;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 60vh;
+    justify-content: space-around;
+    align-items: center;
+}
