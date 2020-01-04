@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Login from './components/Login';
 import Profile from './components/Profile';
 import AuthContext from './auth-context';
+import Title from './components/Title'
 
 
 class App extends Component {
@@ -21,8 +22,10 @@ class App extends Component {
   render() {
     return (
       <AuthContext.Provider
+      
         value={{ isAuth: this.state.isAuth, toggleAuth: this.toggleAuth }}
       >
+        <Title />
         <Login />
         <Profile />
       </AuthContext.Provider>

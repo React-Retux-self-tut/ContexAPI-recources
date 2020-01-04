@@ -1,0 +1,15 @@
+.Login-btn {
+    padding: 0.9rem 0.75rem;
+    background-color: orange;
+    width: 50vw;
+    border-radius: 0.72rem;
+    outline: none;
+    border-color: rgb(99, 255, 164);
+    font-size: 1.53rem;
+}
+.Login-btn:hover {
+    cursor: pointer;
+    background-color: seashell;
+    outline: none;
+
+}
